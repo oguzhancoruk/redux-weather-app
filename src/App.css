@@ -54,3 +54,20 @@ justify-content: center;
  
 }
 
+.icon_div{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.icons{
+  
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+.icons:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+ opacity: 1;
+}
+

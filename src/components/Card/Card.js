@@ -3,6 +3,7 @@ import WeatherLast from '../Weather/Weather-last'
 import WeatherMid from '../Weather/Weather-mid'
 import { useSelector } from 'react-redux'
 import Dropdown from '../Dropdown/Dropdown'
+import Footer from '../Footer/Footer'
 
 function Card() {
 
@@ -21,6 +22,10 @@ function Card() {
     </div> 
      <div className='container seven-day' >
        <WeatherLast/>
+       
+     </div>
+     <div className='container icon_div mt-5'>
+<Footer/>
      </div>
         </div>
     </div>
