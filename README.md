@@ -1,5 +1,5 @@
 
-![proje image](weather-app.png) 
+![proje image](src/weather-app.png) 
 
 
 
